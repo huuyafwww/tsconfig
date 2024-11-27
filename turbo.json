@@ -1,0 +1,13 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "clean": {
+      "cache": false
+    },
+    "sort:package": {
+      "dependsOn": [],
+      "cache": false,
+      "inputs": ["package.json"]
+    }
+  }
+}

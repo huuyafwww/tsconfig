@@ -1,0 +1,44 @@
+{
+  "name": "@huuyafwww/tsconfig",
+  "version": "1.0.0",
+  "private": false,
+  "description": "This repository is a detailed package of tsconfig for me.",
+  "homepage": "https://github.com/huuyafwww/tsconfig",
+  "bugs": {
+    "url": "https://github.com/huuyafwww/tsconfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huuyafwww/tsconfig.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "clean": "turbo run clean",
+    "prepare": "husky",
+    "sort:package": "sort-package-json && turbo run sort:package --parallel",
+    "version": "changeset",
+    "version:apply": "changeset version",
+    "version:publish": "changeset publish"
+  },
+  "lint-staged": {
+    "{package.json,**/package.json}": [
+      "bash -c 'pnpm run sort:package'"
+    ]
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.10",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "sort-package-json": "^2.10.1",
+    "turbo": "^v2.3.2"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "pnpm": ">=9.12.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
