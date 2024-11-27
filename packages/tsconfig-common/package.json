@@ -11,9 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/huuyafwww/tsconfig.git"
   },
+  "license": "MIT",
   "main": "tsconfig.json",
   "files": [
-    "tsconfig.json"
+    "tsconfig.json",
+    "LICENSE"
   ],
   "scripts": {
     "clean": "rimraf node_modules",
