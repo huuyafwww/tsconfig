@@ -22,10 +22,8 @@
     "sort:package": "sort-package-json"
   },
   "dependencies": {
+    "@tsconfig/strictest": "^2.0.5",
     "typescript": "^5.6.3"
-  },
-  "devDependencies": {
-    "@tsconfig/strictest": "^2.0.5"
   },
   "publishConfig": {
     "access": "public",
