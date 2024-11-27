@@ -1,5 +1,14 @@
 # @huuyafwww/tsconfig-next
 
+## 1.0.3
+
+### Patch Changes
+
+- [#8](https://github.com/huuyafwww/tsconfig/pull/8) [`c69dbd9`](https://github.com/huuyafwww/tsconfig/commit/c69dbd9eea99355a017dc096caebd01cc082645d) Thanks [@huuyafwww](https://github.com/huuyafwww)! - fix dependencies
+
+- Updated dependencies [[`c69dbd9`](https://github.com/huuyafwww/tsconfig/commit/c69dbd9eea99355a017dc096caebd01cc082645d)]:
+  - @huuyafwww/tsconfig-common@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes
