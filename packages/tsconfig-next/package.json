@@ -18,12 +18,14 @@
     "LICENSE"
   ],
   "scripts": {
+    "build": "mkdir src && touch src/index.ts && tsc --showConfig -p tsconfig.base.json | jq 'del(.files, .include, .exclude)' | jq '{\"$schema\": \"https://json.schemastore.org/tsconfig\"} + .' > tsconfig.json && rm -f src/index.ts && rmdir src",
     "clean": "rimraf node_modules",
     "sort:package": "sort-package-json"
   },
-  "dependencies": {
+  "devDependencies": {
     "@huuyafwww/tsconfig-common": "workspace:*",
     "@tsconfig/next": "^2.0.3",
+    "node-jq": "^6.0.1",
     "typescript": "^5.6.3"
   },
   "publishConfig": {

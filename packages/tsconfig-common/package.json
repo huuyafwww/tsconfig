@@ -18,11 +18,13 @@
     "LICENSE"
   ],
   "scripts": {
+    "build": "mkdir src && touch src/index.ts && tsc --showConfig -p tsconfig.base.json | jq 'del(.files)' | jq '{\"$schema\": \"https://json.schemastore.org/tsconfig\"} + .' > tsconfig.json && rm -f src/index.ts && rmdir src",
     "clean": "rimraf node_modules",
     "sort:package": "sort-package-json"
   },
-  "dependencies": {
+  "devDependencies": {
     "@tsconfig/strictest": "^2.0.5",
+    "node-jq": "^6.0.1",
     "typescript": "^5.6.3"
   },
   "publishConfig": {
