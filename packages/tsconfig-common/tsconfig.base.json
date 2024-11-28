@@ -13,6 +13,5 @@
     "moduleResolution": "Bundler",
     "target": "ESNext",
     "module": "ESNext",
-    "types": ["@types/node"],
   },
 }

@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "build": "turbo run build",
     "clean": "turbo run clean",
     "prepare": "husky",
     "sort:package": "sort-package-json && turbo run sort:package --parallel",

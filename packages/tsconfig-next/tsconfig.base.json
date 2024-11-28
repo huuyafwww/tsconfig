@@ -4,4 +4,5 @@
     "@huuyafwww/tsconfig-common",
     "@tsconfig/next/tsconfig.json"
   ],
+  "include": ["src/index.ts"],
 }
