@@ -21,10 +21,10 @@ importers:
         specifier: ^15.2.10
         version: 15.2.10
       sort-package-json:
-        specifier: ^2.10.1
+        specifier: ^2.12.0
         version: 2.12.0
       turbo:
-        specifier: ^v2.3.2
+        specifier: ^v2.3.3
         version: 2.3.3
 
   packages/tsconfig-common:
