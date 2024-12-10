@@ -22,7 +22,7 @@ This repository is a detailed package of tsconfig for me.
 ### Installation
 
 ```sh
-pnpm add -D @huuyafwww/tsconfig-common @tsconfig/strictest @types/node
+pnpm add -D @huuyafwww/tsconfig-common @types/node
 ```
 
 ### tsconfig.json
@@ -50,7 +50,7 @@ pnpm add -D @huuyafwww/tsconfig-common @tsconfig/strictest @types/node
 ### Installation
 
 ```sh
-pnpm add -D @huuyafwww/tsconfig-next @tsconfig/strictest @tsconfig/next
+pnpm add -D @huuyafwww/tsconfig-next
 ```
 
 ### tsconfig.json

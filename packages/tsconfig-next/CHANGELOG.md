@@ -1,5 +1,12 @@
 # @huuyafwww/tsconfig-next
 
+## 1.1.0
+
+### Minor Changes
+
+- [#10](https://github.com/huuyafwww/tsconfig/pull/10) [`e2acc2c`](https://github.com/huuyafwww/tsconfig/commit/e2acc2ccf6ad513058dfbf1c1610c909fdf8cf62) Thanks [@huuyafwww](https://github.com/huuyafwww)! - Generate a complete tscconfig by exploring the extends config using the showConfig option of tsc.
+  It would eliminate the need to install @tsconfig/strictest as an implicit dependency when using this library.
+
 ## 1.0.3
 
 ### Patch Changes
