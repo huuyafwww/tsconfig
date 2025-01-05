@@ -1,5 +1,11 @@
 # @huuyafwww/tsconfig-next
 
+## 1.2.0
+
+### Minor Changes
+
+- [#13](https://github.com/huuyafwww/tsconfig/pull/13) [`d1428d8`](https://github.com/huuyafwww/tsconfig/commit/d1428d8623607542ba94a167445deeb9c53f72df) Thanks [@huuyafwww](https://github.com/huuyafwww)! - specification 　 target and forceConsistentCasingInFileNames
+
 ## 1.1.0
 
 ### Minor Changes
