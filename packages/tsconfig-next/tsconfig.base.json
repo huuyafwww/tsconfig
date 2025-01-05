@@ -5,4 +5,12 @@
     "@tsconfig/next/tsconfig.json"
   ],
   "include": ["src/index.ts"],
+  "compilerOptions": {
+    "allowJs": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Bundler",
+    "target": "ESNext",
+    "module": "ESNext",
+  }
 }
