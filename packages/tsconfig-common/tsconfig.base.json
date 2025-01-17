@@ -13,5 +13,6 @@
     "moduleResolution": "Bundler",
     "target": "ESNext",
     "module": "ESNext",
+    "exactOptionalPropertyTypes": false,
   },
 }
