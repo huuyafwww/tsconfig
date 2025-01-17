@@ -1,5 +1,11 @@
 # @huuyafwww/tsconfig-common
 
+## 1.1.1
+
+### Patch Changes
+
+- [#15](https://github.com/huuyafwww/tsconfig/pull/15) [`9855e62`](https://github.com/huuyafwww/tsconfig/commit/9855e620e7e255fedbe34a3e5a6510b630d40b03) Thanks [@huuyafwww](https://github.com/huuyafwww)! - disable exactOptionalPropertyTypes
+
 ## 1.1.0
 
 ### Minor Changes
