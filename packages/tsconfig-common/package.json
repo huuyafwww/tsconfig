@@ -19,8 +19,7 @@
   ],
   "scripts": {
     "build": "mkdir src && touch src/index.ts && tsc --showConfig -p tsconfig.base.json | jq 'del(.files)' | jq '{\"$schema\": \"https://json.schemastore.org/tsconfig\"} + .' > tsconfig.json && rm -f src/index.ts && rmdir src",
-    "clean": "rimraf node_modules",
-    "sort:package": "sort-package-json"
+    "clean": "rimraf node_modules"
   },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.5",
