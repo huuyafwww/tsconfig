@@ -15,22 +15,15 @@
   "scripts": {
     "build": "turbo run build",
     "clean": "turbo run clean",
-    "prepare": "husky",
     "sort:package": "sort-package-json 'package.json' 'packages/*/package.json'",
     "version": "changeset",
     "version:apply": "changeset version",
     "version:publish": "changeset publish"
   },
-  "lint-staged": {
-    "{package.json,**/package.json}": [
-      "bash -c 'pnpm run sort:package'"
-    ]
-  },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.10",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.2.10",
+    "lefthook": "^1.10.10",
     "sort-package-json": "^2.12.0",
     "turbo": "^v2.3.3"
   },
