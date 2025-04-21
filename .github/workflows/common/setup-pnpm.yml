@@ -1,5 +1,8 @@
 name: Setup
-description: Setup project
+description: Setup pnpm
+
+on:
+  workflow_call:
 
 runs:
   using: composite
@@ -9,7 +12,6 @@ runs:
 
     - name: Expose pnpm store path
       id: pnpm_store_path
-      shell: bash
       run: |
         echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
@@ -22,5 +24,4 @@ runs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
-      shell: bash
       run: pnpm install --frozen-lockfile --prefer-offline
