@@ -1,5 +1,11 @@
 # @huuyafwww/tsconfig-next
 
+## 1.2.1
+
+### Patch Changes
+
+- [#21](https://github.com/huuyafwww/tsconfig/pull/21) [`0efb797`](https://github.com/huuyafwww/tsconfig/commit/0efb797866c93880e8fb5ba2b47a0aa0872b62c5) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update typescript and add peerDependencies
+
 ## 1.2.0
 
 ### Minor Changes
