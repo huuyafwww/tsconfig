@@ -22,10 +22,10 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
-    "@changesets/cli": "^2.28.1",
-    "lefthook": "^1.11.3",
+    "@changesets/cli": "^2.29.2",
+    "lefthook": "^1.11.11",
     "sort-package-json": "^2.15.1",
-    "turbo": "^2.4.4"
+    "turbo": "^2.5.0"
   },
   "packageManager": "pnpm@9.15.0",
   "engines": {
