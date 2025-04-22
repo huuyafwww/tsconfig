@@ -14,11 +14,15 @@
   "license": "MIT",
   "scripts": {
     "build": "turbo run build",
-    "clean": "turbo run clean",
+    "clean": "turbo run clean && pnpm run clean:self",
+    "clean:self": "rimraf node_modules .turbo",
     "sort:package": "sort-package-json 'package.json' 'packages/*/package.json'",
     "version": "changeset",
     "version:apply": "changeset version",
     "version:publish": "changeset publish"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
@@ -27,10 +31,10 @@
     "sort-package-json": "^2.15.1",
     "turbo": "^2.5.0"
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@10.9.0",
   "engines": {
     "node": ">=22.12.0",
-    "pnpm": ">=9.15.0"
+    "pnpm": ">=10.9.0"
   },
   "publishConfig": {
     "access": "public",
