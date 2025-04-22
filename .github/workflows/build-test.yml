@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup pnpm
-        uses: ./.github/workflows/common/setup-pnpm.yml
+        uses: ./.github/actions/setup/pnpm
 
       - name: Build packages
         run: pnpm run build
