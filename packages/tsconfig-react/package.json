@@ -1,0 +1,37 @@
+{
+  "name": "@huuyafwww/tsconfig-react",
+  "version": "1.0.0",
+  "private": false,
+  "description": "tsconfig for React for me",
+  "homepage": "https://github.com/huuyafwww/tsconfig",
+  "bugs": {
+    "url": "https://github.com/huuyafwww/tsconfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huuyafwww/tsconfig.git"
+  },
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "mkdir src && touch src/index.ts && tsc --showConfig -p tsconfig.base.json | jq 'del(.files, .include, .exclude)' | jq '{\"$schema\": \"https://json.schemastore.org/tsconfig\"} + .' > tsconfig.json && rm -f src/index.ts && rmdir src",
+    "clean": "rimraf node_modules dist .turbo"
+  },
+  "devDependencies": {
+    "@huuyafwww/tsconfig-common": "workspace:*",
+    "@tsconfig/create-react-app": "^2.0.5",
+    "node-jq": "^6.0.1",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

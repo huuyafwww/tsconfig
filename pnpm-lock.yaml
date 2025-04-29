@@ -54,6 +54,21 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
+  packages/tsconfig-react:
+    devDependencies:
+      '@huuyafwww/tsconfig-common':
+        specifier: workspace:*
+        version: link:../tsconfig-common
+      '@tsconfig/create-react-app':
+        specifier: ^2.0.5
+        version: 2.0.5
+      node-jq:
+        specifier: ^6.0.1
+        version: 6.0.1
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
 packages:
 
   '@babel/runtime@7.27.0':
@@ -146,6 +161,9 @@ packages:
   '@nodelib/fs.walk@1.2.8':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
+
+  '@tsconfig/create-react-app@2.0.5':
+    resolution: {integrity: sha512-NiXzSMJabQtVTPwFmBWX+eyee2dfhRSnQ6NNbtCZfXemGxOq+N0+RMPVYu+sz6riUZANHTnvvHoS1k87ksyDXg==}
 
   '@tsconfig/next@2.0.3':
     resolution: {integrity: sha512-b4aKvmdWnv9aUy+NStUFlefirk3SItW20OJtbi5/ue9oMRaQtUYbN5zsr7OmV3rlx6Gp6h7A82gPoCXhrNGVPQ==}
@@ -985,6 +1003,8 @@ snapshots:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
+
+  '@tsconfig/create-react-app@2.0.5': {}
 
   '@tsconfig/next@2.0.3': {}
 
