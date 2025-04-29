@@ -11,6 +11,7 @@ This repository is a detailed package of tsconfig for me.
 |Name|Include rule|Package|
 |---|---|---|
 |[`@huuyafwww/tsconfig-common`](packages/tsconfig-common)|Node.js|[![npm version](https://badge.fury.io/js/@huuyafwww%2Ftsconfig-common.svg)](https://www.npmjs.com/package/@huuyafwww/tsconfig-common)|
+|[`@huuyafwww/tsconfig-react`](packages/tsconfig-react)|React|[![npm version](https://badge.fury.io/js/@huuyafwww%2Ftsconfig-react.svg)](https://www.npmjs.com/package/@huuyafwww/tsconfig-react)|
 |[`@huuyafwww/tsconfig-next`](packages/tsconfig-next)|Next.js|[![npm version](https://badge.fury.io/js/@huuyafwww%2Ftsconfig-next.svg)](https://www.npmjs.com/package/@huuyafwww/tsconfig-next)|
 
 ## Usage
