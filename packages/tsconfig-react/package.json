@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@huuyafwww/tsconfig-common": "workspace:*",
-    "@tsconfig/create-react-app": "^2.0.5",
+    "@tsconfig/create-react-app": "^2.0.6",
     "node-jq": "^6.0.1",
     "typescript": "^5.8.3"
   },
