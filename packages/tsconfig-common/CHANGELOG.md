@@ -1,5 +1,11 @@
 # @huuyafwww/tsconfig-common
 
+## 1.1.3
+
+### Patch Changes
+
+- [#27](https://github.com/huuyafwww/tsconfig/pull/27) [`c8fa0f7`](https://github.com/huuyafwww/tsconfig/commit/c8fa0f7ed111769efd1ae7794dc1dd651072173b) Thanks [@huuyafwww](https://github.com/huuyafwww)! - update typescript version
+
 ## 1.1.2
 
 ### Patch Changes
