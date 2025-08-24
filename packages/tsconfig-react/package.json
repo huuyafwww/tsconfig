@@ -24,7 +24,7 @@
   "devDependencies": {
     "@huuyafwww/tsconfig-common": "workspace:*",
     "@tsconfig/create-react-app": "^2.0.6",
-    "node-jq": "^6.0.1",
+    "node-jq": "^6.1.0",
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
