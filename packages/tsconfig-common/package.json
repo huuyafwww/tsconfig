@@ -22,12 +22,12 @@
     "clean": "rimraf node_modules dist .turbo"
   },
   "devDependencies": {
-    "@tsconfig/strictest": "^2.0.5",
+    "@tsconfig/strictest": "^2.0.8",
     "node-jq": "^6.3.1",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "publishConfig": {
     "access": "public",
