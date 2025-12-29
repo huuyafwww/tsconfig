@@ -1,5 +1,11 @@
 # @huuyafwww/tsconfig-react
 
+## 1.1.0
+
+### Minor Changes
+
+- [#31](https://github.com/huuyafwww/tsconfig/pull/31) [`dcb0496`](https://github.com/huuyafwww/tsconfig/commit/dcb049645a5b580e2e7feb42f7478b81bd38202a) Thanks [@huuyafwww](https://github.com/huuyafwww)! - Update dependencies
+
 ## 1.0.2
 
 ### Patch Changes
